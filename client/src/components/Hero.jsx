@@ -28,19 +28,7 @@ const Hero = () => {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             >
-                <TypeAnimation
-                    sequence={[
-                        "Fullstack Dev",
-                        1000,
-                        "Graphic Designer",
-                        1000,
-                        "Digital Marketer",
-                        1000
-                    ]}
-                    speed={50}
-                    repeat={Infinity}
-                    className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
-                />
+                
 
                 <motion.p
                 initial={{ opacity: 0 }}
@@ -60,7 +48,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am a passionate fullstack developer, Graphic Designer, Digital Marketer with over 2 years of experience.
+                    I am a passionate FullStack Web Developer seeking oportunities in Front End and Back End .
                 </motion.p>
 
                 <motion.div
@@ -70,25 +58,18 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1.5 }}
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
-                    <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
-                        className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-purple-400 rounded-xl"     
-                    >
-                        Download CV
-                    </motion.button>
+                   
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/muzammil-mz">
                             <AiOutlineGithub/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
+                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/muzammilmd/">
                             <AiOutlineLinkedin/>
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineInstagram/>
-                        </motion.a>
+                       
                     </div>
                 </motion.div>
             </motion.div>

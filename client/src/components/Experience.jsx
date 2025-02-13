@@ -3,17 +3,25 @@ import { motion } from 'framer-motion'
 import Reveal from './Reveal'
 
 const experiences = [
+    
     {
-        company: 'MZ Innovations PVT LTD',
-        period: '2023 - 2024',
-        description: 'Remote Full Stack Web Developer.',
-      },
-    {
-      company: 'MI Innovations PVT LTD',
-        period: '2025 - Present',
-        description: 'Working as Back-End Developer.'
+      company: 'H.E. Mart Pvt Ltd',
+        period: '2024 - Present',
+        description: 'Front-End Developer.'
       
-    }
+    },
+    {
+      company: 'H.E. Jewellers Pvt Ltd',
+        period: '2024 - Present',
+        description: 'Odoo Developer'
+      
+    },
+    {
+    
+      company: 'H.E. Tours & Travels',
+      period: '2024 - Present',
+      description: 'Graphic Designer.',
+    },
 ]
 
 

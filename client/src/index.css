@@ -5,30 +5,35 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  background-color:darkslategrey;
+  background-color: darkslategrey;
+  margin: 0; /* Ensure no extra spacing */
+  padding: 0;
+  width: 100vw; /* Full viewport width */
+  min-height: 100vh; /* Ensures full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
 }
 
 h2 {
-  @apply text-xl md:text-4xl
+  @apply text-xl md:text-4xl;
 }
 
 p {
-  @apply text-xl tracking-tight leading-relaxed
+  @apply text-xl tracking-tight leading-relaxed;
 }
 
 span {
-  @apply text-purple-600
+  @apply text-purple-600;
 }
 
-
+/* Remove unwanted width and ensure it adapts to the screen */
 .shiny-effect {
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
   background: radial-gradient(circle, rgba(178, 19, 202, 0.2), transparent 70%);
-}
-
-.bg-primary-color {
-    @apply bg-purple-600
+  width: 100vw;  
 }
