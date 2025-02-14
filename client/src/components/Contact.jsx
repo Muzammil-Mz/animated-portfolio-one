@@ -16,7 +16,7 @@ const Contact = () => {
                 Science and experience in Digital Forensic Tools. With a passion
                 for building efficient and scalable web applications, I
                 specialize in MERN Stack (MongoDB, Express, React, Node.js)
-                along with Tailwind CSS & Vite.js for optimized performance.
+                along with Tailwind CSS & Vite.js.
                 <br />
                 <br /> Beyond coding, I have 2 years of experience in Graphic
                 Design, Digital Marketing, and Blogging, giving me a strong
