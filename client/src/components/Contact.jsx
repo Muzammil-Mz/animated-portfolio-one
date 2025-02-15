@@ -15,7 +15,7 @@ const Contact = () => {
                 I'm a Full-Stack Web Developer with a background in Forensic
                 Science and experience in Digital Forensic Tools. With a passion
                 for building efficient and scalable web applications, I
-                specialize in MERN Stack (MongoDB, Express, React, Node.js)
+                specialize in MERN Stack (MongoDB, Exprress, React, Node.js)
                 along with Tailwind CSS & Vite.js.
                 <br />
                 <br /> Beyond coding, I have 2 years of experience in Graphic
