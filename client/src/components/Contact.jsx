@@ -20,7 +20,7 @@ const Contact = () => {
                 <br />
                 <br /> Beyond coding, I have 2 years of experience in Graphic
                 Design, Digital Marketing, and Blogging, giving me a strong
-                foundation in UI/UX and content strategy. I thrive on solving
+                foundation in UI/UX and content strategyy. I thrive on solving
                 complex problems and continuously learning to stay ahead in the
                 tech world. Looking forward to collaborating with your ideas on
                 building innovative products!🚀 <br />
