@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="px-4 max-w-[1200px] mx-auto md:my-16" id="contact">
       <Reveal>
-        <div className="grid md:grid-cols-2 place-items-center w-full">
+        <div className="grid md:grid-cols-3 place-items-center w-full">
           <div className="w-full">
             <div className="text-gray-300 my-5">
               <h3 className="text-5xl font-semibold mb-6">
@@ -15,7 +15,7 @@ const Contact = () => {
                 I'm a Full-Stack Web Developer with a background in Forensic
                 Science and experience in Digital Forensic Tools. With a passion
                 for building efficient and scalable web applications, I
-                specialize in MERN Stack (MongoDB, Exprress, React, Node.js)
+                specialize in MERN Stack (MongoDB, Express, React, Node.js)
                 along with Tailwind CSS & Vite.js.
                 <br />
                 <br /> Beyond coding, I have 2 years of experience in Graphic
