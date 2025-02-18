@@ -13,7 +13,7 @@ const Footer = () => {
 
         </div>
 <div>
-<p className='text-gray-400 mt-3 '>@2024 MUZAMMIL</p>
+<p className='text-gray-400 mt-3 '>@2024 MUZAMMIL Pvt Ltd</p>
 </div>
        
         
